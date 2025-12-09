@@ -1,0 +1,47 @@
+.table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: inherit;
+  border: 2px solid #222;
+}
+
+.table thead tr{
+  background: #2b2b2b;
+}
+
+.th{
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  padding: 14px 18px;
+  font-size: 18px;
+}
+
+.td{
+  padding: 14px 18px;
+  border-top: 1px solid #bdbdbd;
+}
+
+/* zebra rows: even rows get light gray background */
+.table tbody tr:nth-child(even){
+  background: #e6e6e6;
+}
+
+.table tbody tr:nth-child(odd){
+  background: #fff;
+}
+
+/* vertical separators between columns */
+.table td + td, .table th + th{
+  border-left: 1px solid #999;
+}
+
+.row:hover{
+  background: #f2f2f2;
+}
+
+/* make header text centered vertically and keep first row thicker top border */
+.table thead tr th{
+  border-bottom: 2px solid #111;
+}

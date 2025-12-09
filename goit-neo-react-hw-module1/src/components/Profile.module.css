@@ -4,9 +4,10 @@
     align-items: center;
     border: 3px solid black;
     border-radius: 10px;
-    width: 400px;
+    width: 500px;
     background-color: #f9f9f9;
     overflow: hidden;
+    margin: 0 0 10px 0;
 }
 
 .profile{
