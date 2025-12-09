@@ -17,7 +17,8 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList friends={friends} />
+        <FriendList friends={friends.friends} />
+    
     </>
   );
 }
